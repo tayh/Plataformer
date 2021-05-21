@@ -109,7 +109,7 @@ class Player(GameObject, CircleBody):
 
     def __init__(self, x, y):
         super().__init__(
-            radius=6,
+            radius=4,
             position=(x, y),
             color=pyxel.COLOR_RED,
             elasticity=0.0,
